@@ -1,5 +1,5 @@
 pipeline {
-    agent build-agent
+    agent any
 
     environment {
         // Define environment variables if needed
